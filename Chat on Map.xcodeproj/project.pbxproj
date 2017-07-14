@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		2AE1F71B44149D26F5128893 /* Pods_Chat_on_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18AB9C376C74E618FAB0881 /* Pods_Chat_on_Map.framework */; };
 		5D6DC86C47375EB574ED325D /* Pods_Chat_on_MapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941A3D61E5803ECC750B11E /* Pods_Chat_on_MapUITests.framework */; };
+		BE7CEBC11F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
+		BE7CEBC21F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
+		BE7CEBC31F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
+		BE7CEBC51F185C5700F3B2F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */; };
 		BEBFB4B41F15CE3700BFCE47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4B31F15CE3700BFCE47 /* AppDelegate.swift */; };
 		BEBFB4B61F15CE3700BFCE47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4B51F15CE3700BFCE47 /* ViewController.swift */; };
 		BEBFB4B91F15CE3700BFCE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBFB4B71F15CE3700BFCE47 /* Main.storyboard */; };
@@ -45,6 +49,8 @@
 		2CFD2FB55273BEBE7F682375 /* Pods-Chat on Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on Map/Pods-Chat on Map.release.xcconfig"; sourceTree = "<group>"; };
 		8B3975A17C0283AF945E2F4D /* Pods-Chat on MapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on MapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on MapTests/Pods-Chat on MapTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7846D258746EAE00CF60994 /* Pods-Chat on MapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on MapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on MapUITests/Pods-Chat on MapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationDataSource.swift; sourceTree = "<group>"; };
+		BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BEBFB4B01F15CE3600BFCE47 /* Chat on Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat on Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBFB4B31F15CE3700BFCE47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEBFB4B51F15CE3700BFCE47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7CEBC51F185C5700F3B2F6 /* CoreLocation.framework in Frameworks */,
 				2AE1F71B44149D26F5128893 /* Pods_Chat_on_Map.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,6 +103,7 @@
 		075DBCD6B4B70B3E6976696F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */,
 				C18AB9C376C74E618FAB0881 /* Pods_Chat_on_Map.framework */,
 				D0426ECAFC1105E87DDA5117 /* Pods_Chat_on_MapTests.framework */,
 				F941A3D61E5803ECC750B11E /* Pods_Chat_on_MapUITests.framework */,
@@ -114,6 +122,14 @@
 				01DC7F6EEEB1ABF5E9C68A1F /* Pods-Chat on MapUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		BE7CEBBF1F185A7B00F3B2F6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		BEBFB4A71F15CE3600BFCE47 = {
@@ -141,6 +157,7 @@
 		BEBFB4B21F15CE3600BFCE47 /* Chat on Map */ = {
 			isa = PBXGroup;
 			children = (
+				BE7CEBBF1F185A7B00F3B2F6 /* Data */,
 				BEBFB4B31F15CE3700BFCE47 /* AppDelegate.swift */,
 				BEBFB4B51F15CE3700BFCE47 /* ViewController.swift */,
 				BEBFB4B71F15CE3700BFCE47 /* Main.storyboard */,
@@ -453,6 +470,7 @@
 			files = (
 				BEBFB4B61F15CE3700BFCE47 /* ViewController.swift in Sources */,
 				BEBFB4E21F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
+				BE7CEBC11F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
 				BEBFB4B41F15CE3700BFCE47 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -462,6 +480,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBFB4C91F15CE3700BFCE47 /* Chat_on_MapTests.swift in Sources */,
+				BE7CEBC21F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
 				BEBFB4E31F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -471,6 +490,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBFB4D41F15CE3700BFCE47 /* Chat_on_MapUITests.swift in Sources */,
+				BE7CEBC31F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
 				BEBFB4E41F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -706,6 +726,7 @@
 				BEBFB4DA1F15CE3700BFCE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEBFB4DB1F15CE3700BFCE47 /* Build configuration list for PBXNativeTarget "Chat on MapTests" */ = {
 			isa = XCConfigurationList;
@@ -714,6 +735,7 @@
 				BEBFB4DD1F15CE3700BFCE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEBFB4DE1F15CE3700BFCE47 /* Build configuration list for PBXNativeTarget "Chat on MapUITests" */ = {
 			isa = XCConfigurationList;
@@ -722,6 +744,7 @@
 				BEBFB4E01F15CE3700BFCE47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
