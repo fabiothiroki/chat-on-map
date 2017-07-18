@@ -7,7 +7,7 @@ target 'Chat on Map' do
 
   pod 'RxSwift', '3.5.0'
   pod 'RxCocoa', '3.5.0'
-  pod 'ReSwift', '4.0.0' 
+  pod 'ReSwift', '4.0.0'
 
   # Pods for Chat on Map
 
