@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		2AE1F71B44149D26F5128893 /* Pods_Chat_on_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18AB9C376C74E618FAB0881 /* Pods_Chat_on_Map.framework */; };
 		5D6DC86C47375EB574ED325D /* Pods_Chat_on_MapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941A3D61E5803ECC750B11E /* Pods_Chat_on_MapUITests.framework */; };
+		BE524C0C1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */; };
+		BE524C0D1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */; };
+		BE524C0E1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */; };
+		BE524C101F1F015D007C05FF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0F1F1F015D007C05FF /* State.swift */; };
+		BE524C111F1F015D007C05FF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0F1F1F015D007C05FF /* State.swift */; };
+		BE524C121F1F015D007C05FF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0F1F1F015D007C05FF /* State.swift */; };
 		BE7CEBC11F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
 		BE7CEBC21F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
 		BE7CEBC31F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
@@ -49,6 +55,8 @@
 		2CFD2FB55273BEBE7F682375 /* Pods-Chat on Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on Map/Pods-Chat on Map.release.xcconfig"; sourceTree = "<group>"; };
 		8B3975A17C0283AF945E2F4D /* Pods-Chat on MapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on MapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on MapTests/Pods-Chat on MapTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7846D258746EAE00CF60994 /* Pods-Chat on MapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on MapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on MapUITests/Pods-Chat on MapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleLocation.swift; sourceTree = "<group>"; };
+		BE524C0F1F1F015D007C05FF /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationDataSource.swift; sourceTree = "<group>"; };
 		BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BEBFB4B01F15CE3600BFCE47 /* Chat on Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat on Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +132,22 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		BE524C091F1EFEE4007C05FF /* State */ = {
+			isa = PBXGroup;
+			children = (
+				BE524C0F1F1F015D007C05FF /* State.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		BE524C0A1F1EFF01007C05FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		BE7CEBBF1F185A7B00F3B2F6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +182,8 @@
 			isa = PBXGroup;
 			children = (
 				BE7CEBBF1F185A7B00F3B2F6 /* Data */,
+				BE524C0A1F1EFF01007C05FF /* Model */,
+				BE524C091F1EFEE4007C05FF /* State */,
 				BEBFB4B31F15CE3700BFCE47 /* AppDelegate.swift */,
 				BEBFB4B51F15CE3700BFCE47 /* ViewController.swift */,
 				BEBFB4B71F15CE3700BFCE47 /* Main.storyboard */,
@@ -471,7 +497,9 @@
 				BEBFB4B61F15CE3700BFCE47 /* ViewController.swift in Sources */,
 				BEBFB4E21F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
 				BE7CEBC11F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
+				BE524C0C1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4B41F15CE3700BFCE47 /* AppDelegate.swift in Sources */,
+				BE524C101F1F015D007C05FF /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,8 +507,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE524C0D1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4C91F15CE3700BFCE47 /* Chat_on_MapTests.swift in Sources */,
 				BE7CEBC21F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
+				BE524C111F1F015D007C05FF /* State.swift in Sources */,
 				BEBFB4E31F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -489,8 +519,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE524C0E1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4D41F15CE3700BFCE47 /* Chat_on_MapUITests.swift in Sources */,
 				BE7CEBC31F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
+				BE524C121F1F015D007C05FF /* State.swift in Sources */,
 				BEBFB4E41F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
