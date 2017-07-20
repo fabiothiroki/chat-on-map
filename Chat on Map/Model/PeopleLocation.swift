@@ -14,6 +14,20 @@ struct PeopleLocation {
     let age: Int
     let latitude: Double
     let longitude: Double
+    let imageUrl: String
+    
+    init(name: String,
+        age: Int,
+        latitude: Double,
+        longitude: Double,
+        imageUrl: String) {
+        
+        self.name = name
+        self.age = age
+        self.latitude = latitude
+        self.longitude = longitude
+        self.imageUrl = imageUrl
+    }
 }
 
 

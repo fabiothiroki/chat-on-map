@@ -19,6 +19,9 @@
 		BE7CEBC21F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
 		BE7CEBC31F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
 		BE7CEBC51F185C5700F3B2F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */; };
+		BE9180C11F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */; };
+		BE9180C21F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */; };
+		BE9180C31F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */; };
 		BEBFB4B41F15CE3700BFCE47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4B31F15CE3700BFCE47 /* AppDelegate.swift */; };
 		BEBFB4B61F15CE3700BFCE47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4B51F15CE3700BFCE47 /* ViewController.swift */; };
 		BEBFB4B91F15CE3700BFCE47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBFB4B71F15CE3700BFCE47 /* Main.storyboard */; };
@@ -59,6 +62,7 @@
 		BE524C0F1F1F015D007C05FF /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationDataSource.swift; sourceTree = "<group>"; };
 		BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleLocationResource.swift; sourceTree = "<group>"; };
 		BEBFB4B01F15CE3600BFCE47 /* Chat on Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat on Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBFB4B31F15CE3700BFCE47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEBFB4B51F15CE3700BFCE47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */,
+				BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -496,6 +501,7 @@
 			files = (
 				BEBFB4B61F15CE3700BFCE47 /* ViewController.swift in Sources */,
 				BEBFB4E21F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
+				BE9180C11F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */,
 				BE7CEBC11F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
 				BE524C0C1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4B41F15CE3700BFCE47 /* AppDelegate.swift in Sources */,
@@ -509,6 +515,7 @@
 			files = (
 				BE524C0D1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4C91F15CE3700BFCE47 /* Chat_on_MapTests.swift in Sources */,
+				BE9180C21F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */,
 				BE7CEBC21F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
 				BE524C111F1F015D007C05FF /* State.swift in Sources */,
 				BEBFB4E31F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
@@ -521,6 +528,7 @@
 			files = (
 				BE524C0E1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4D41F15CE3700BFCE47 /* Chat_on_MapUITests.swift in Sources */,
+				BE9180C31F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */,
 				BE7CEBC31F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
 				BE524C121F1F015D007C05FF /* State.swift in Sources */,
 				BEBFB4E41F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
