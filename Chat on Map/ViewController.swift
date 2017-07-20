@@ -11,19 +11,12 @@ import CoreLocation
 
 class ViewController: UIViewController {
 
-    let userLocationDataSource = UserLocationResource.init(locationManager: CLLocationManager())
-   
+    var userLocationDataSource: UserLocationResource?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        print(userLocationDataSource)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
