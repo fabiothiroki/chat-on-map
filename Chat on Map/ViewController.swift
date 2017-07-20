@@ -11,7 +11,7 @@ import CoreLocation
 
 class ViewController: UIViewController {
 
-    let userLocationDataSource = UserLocationDataSource.init(locationManager: CLLocationManager())
+    let userLocationDataSource = UserLocationResource.init(locationManager: CLLocationManager())
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -15,9 +15,9 @@
 		BE524C101F1F015D007C05FF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0F1F1F015D007C05FF /* State.swift */; };
 		BE524C111F1F015D007C05FF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0F1F1F015D007C05FF /* State.swift */; };
 		BE524C121F1F015D007C05FF /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0F1F1F015D007C05FF /* State.swift */; };
-		BE7CEBC11F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
-		BE7CEBC21F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
-		BE7CEBC31F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */; };
+		BE7CEBC11F185B3C00F3B2F6 /* UserLocationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationResource.swift */; };
+		BE7CEBC21F185B3C00F3B2F6 /* UserLocationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationResource.swift */; };
+		BE7CEBC31F185B3C00F3B2F6 /* UserLocationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7CEBC01F185B3C00F3B2F6 /* UserLocationResource.swift */; };
 		BE7CEBC51F185C5700F3B2F6 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */; };
 		BE9180C11F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */; };
 		BE9180C21F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */; };
@@ -29,9 +29,6 @@
 		BEBFB4BE1F15CE3700BFCE47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEBFB4BC1F15CE3700BFCE47 /* LaunchScreen.storyboard */; };
 		BEBFB4C91F15CE3700BFCE47 /* Chat_on_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4C81F15CE3700BFCE47 /* Chat_on_MapTests.swift */; };
 		BEBFB4D41F15CE3700BFCE47 /* Chat_on_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4D31F15CE3700BFCE47 /* Chat_on_MapUITests.swift */; };
-		BEBFB4E21F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4E11F15D04800BFCE47 /* PeopleNearbyService.swift */; };
-		BEBFB4E31F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4E11F15D04800BFCE47 /* PeopleNearbyService.swift */; };
-		BEBFB4E41F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEBFB4E11F15D04800BFCE47 /* PeopleNearbyService.swift */; };
 		BF40E35B4823B64103F998EA /* Pods_Chat_on_MapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0426ECAFC1105E87DDA5117 /* Pods_Chat_on_MapTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +57,7 @@
 		A7846D258746EAE00CF60994 /* Pods-Chat on MapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on MapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on MapUITests/Pods-Chat on MapUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleLocation.swift; sourceTree = "<group>"; };
 		BE524C0F1F1F015D007C05FF /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
-		BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationDataSource.swift; sourceTree = "<group>"; };
+		BE7CEBC01F185B3C00F3B2F6 /* UserLocationResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationResource.swift; sourceTree = "<group>"; };
 		BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleLocationResource.swift; sourceTree = "<group>"; };
 		BEBFB4B01F15CE3600BFCE47 /* Chat on Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chat on Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -76,7 +73,6 @@
 		BEBFB4CF1F15CE3700BFCE47 /* Chat on MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Chat on MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEBFB4D31F15CE3700BFCE47 /* Chat_on_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_on_MapUITests.swift; sourceTree = "<group>"; };
 		BEBFB4D51F15CE3700BFCE47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BEBFB4E11F15D04800BFCE47 /* PeopleNearbyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleNearbyService.swift; sourceTree = "<group>"; };
 		C18AB9C376C74E618FAB0881 /* Pods_Chat_on_Map.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_on_Map.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0426ECAFC1105E87DDA5117 /* Pods_Chat_on_MapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chat_on_MapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F53FE381D75ADFA693F3BF38 /* Pods-Chat on Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on Map/Pods-Chat on Map.debug.xcconfig"; sourceTree = "<group>"; };
@@ -155,7 +151,7 @@
 		BE7CEBBF1F185A7B00F3B2F6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				BE7CEBC01F185B3C00F3B2F6 /* UserLocationDataSource.swift */,
+				BE7CEBC01F185B3C00F3B2F6 /* UserLocationResource.swift */,
 				BE9180C01F203DF5007CAF5D /* PeopleLocationResource.swift */,
 			);
 			path = Data;
@@ -195,7 +191,6 @@
 				BEBFB4BA1F15CE3700BFCE47 /* Assets.xcassets */,
 				BEBFB4BC1F15CE3700BFCE47 /* LaunchScreen.storyboard */,
 				BEBFB4BF1F15CE3700BFCE47 /* Info.plist */,
-				BEBFB4E11F15D04800BFCE47 /* PeopleNearbyService.swift */,
 			);
 			path = "Chat on Map";
 			sourceTree = "<group>";
@@ -500,9 +495,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEBFB4B61F15CE3700BFCE47 /* ViewController.swift in Sources */,
-				BEBFB4E21F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
 				BE9180C11F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */,
-				BE7CEBC11F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
+				BE7CEBC11F185B3C00F3B2F6 /* UserLocationResource.swift in Sources */,
 				BE524C0C1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4B41F15CE3700BFCE47 /* AppDelegate.swift in Sources */,
 				BE524C101F1F015D007C05FF /* State.swift in Sources */,
@@ -516,9 +510,8 @@
 				BE524C0D1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4C91F15CE3700BFCE47 /* Chat_on_MapTests.swift in Sources */,
 				BE9180C21F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */,
-				BE7CEBC21F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
+				BE7CEBC21F185B3C00F3B2F6 /* UserLocationResource.swift in Sources */,
 				BE524C111F1F015D007C05FF /* State.swift in Sources */,
-				BEBFB4E31F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,9 +522,8 @@
 				BE524C0E1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */,
 				BEBFB4D41F15CE3700BFCE47 /* Chat_on_MapUITests.swift in Sources */,
 				BE9180C31F203DF5007CAF5D /* PeopleLocationResource.swift in Sources */,
-				BE7CEBC31F185B3C00F3B2F6 /* UserLocationDataSource.swift in Sources */,
+				BE7CEBC31F185B3C00F3B2F6 /* UserLocationResource.swift in Sources */,
 				BE524C121F1F015D007C05FF /* State.swift in Sources */,
-				BEBFB4E41F15D04800BFCE47 /* PeopleNearbyService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

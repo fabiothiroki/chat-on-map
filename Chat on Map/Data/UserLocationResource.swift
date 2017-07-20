@@ -16,7 +16,7 @@ protocol LocationManager {
 
 extension CLLocationManager: LocationManager {}
 
-class UserLocationDataSource: NSObject {
+class UserLocationResource: NSObject {
     
     fileprivate var locationManager: LocationManager
     
@@ -34,7 +34,7 @@ class UserLocationDataSource: NSObject {
 }
 
 
-extension UserLocationDataSource: CLLocationManagerDelegate {
+extension UserLocationResource: CLLocationManagerDelegate {
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         print(locations)
