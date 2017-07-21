@@ -8,9 +8,12 @@
 
 import UIKit
 import CoreLocation
+import MapKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet fileprivate var mapView: MKMapView!
+    
     var userLocationDataSource: UserLocationResource?
     
     override func viewDidLoad() {

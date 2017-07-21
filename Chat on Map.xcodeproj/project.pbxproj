@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2AE1F71B44149D26F5128893 /* Pods_Chat_on_Map.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18AB9C376C74E618FAB0881 /* Pods_Chat_on_Map.framework */; };
 		5D6DC86C47375EB574ED325D /* Pods_Chat_on_MapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F941A3D61E5803ECC750B11E /* Pods_Chat_on_MapUITests.framework */; };
+		BE2950B71F219D5C00834F4D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2950B61F219D5C00834F4D /* MapKit.framework */; };
 		BE524C0C1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */; };
 		BE524C0D1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */; };
 		BE524C0E1F1EFF6C007C05FF /* PeopleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */; };
@@ -58,6 +59,7 @@
 		2CFD2FB55273BEBE7F682375 /* Pods-Chat on Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on Map/Pods-Chat on Map.release.xcconfig"; sourceTree = "<group>"; };
 		8B3975A17C0283AF945E2F4D /* Pods-Chat on MapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on MapTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on MapTests/Pods-Chat on MapTests.release.xcconfig"; sourceTree = "<group>"; };
 		A7846D258746EAE00CF60994 /* Pods-Chat on MapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chat on MapUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Chat on MapUITests/Pods-Chat on MapUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE2950B61F219D5C00834F4D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BE524C0B1F1EFF6C007C05FF /* PeopleLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleLocation.swift; sourceTree = "<group>"; };
 		BE524C0F1F1F015D007C05FF /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		BE7CEBC01F185B3C00F3B2F6 /* UserLocationResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLocationResource.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE2950B71F219D5C00834F4D /* MapKit.framework in Frameworks */,
 				BE7CEBC51F185C5700F3B2F6 /* CoreLocation.framework in Frameworks */,
 				2AE1F71B44149D26F5128893 /* Pods_Chat_on_Map.framework in Frameworks */,
 			);
@@ -115,6 +118,7 @@
 		075DBCD6B4B70B3E6976696F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE2950B61F219D5C00834F4D /* MapKit.framework */,
 				BE7CEBC41F185C5700F3B2F6 /* CoreLocation.framework */,
 				C18AB9C376C74E618FAB0881 /* Pods_Chat_on_Map.framework */,
 				D0426ECAFC1105E87DDA5117 /* Pods_Chat_on_MapTests.framework */,
