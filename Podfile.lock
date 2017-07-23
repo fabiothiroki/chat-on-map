@@ -1,4 +1,5 @@
 PODS:
+  - Magnetic (1.0.6)
   - ReSwift (4.0.0)
   - RxCocoa (3.5.0):
     - RxSwift (~> 3.4)
@@ -8,19 +9,21 @@ PODS:
     - Swinject (~> 2.0)
 
 DEPENDENCIES:
+  - Magnetic
   - ReSwift (= 4.0.0)
   - RxCocoa (= 3.5.0)
   - RxSwift (= 3.5.0)
   - Swinject (= 2.1.0)
-  - SwinjectStoryboard
+  - SwinjectStoryboard (= 1.1.1)
 
 SPEC CHECKSUMS:
+  Magnetic: 5d8e4ce3d3e6cf496af1035580971a1d17e966f3
   ReSwift: f058ef13b46ae5f463f10605ccbbb7fb04424d8d
   RxCocoa: a0a09f45d0e5b48ecb6a4a7b4b4c89c88d3f633f
   RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
   Swinject: 85e468ac75c5c2d234076f98c591d57d56bc64bc
   SwinjectStoryboard: 4c71c25f312322844d39ee06f0f523db7b9b10a3
 
-PODFILE CHECKSUM: 93d35ce641e6cf19e2b302728072d3eff8df5c9c
+PODFILE CHECKSUM: ec7cab76188a718b4d89dc0c20269a053f01e41d
 
 COCOAPODS: 1.1.1

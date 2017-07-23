@@ -8,6 +8,7 @@ target 'Chat on Map' do
   pod 'ReSwift',            '4.0.0'
   pod 'Swinject',           '2.1.0'
   pod 'SwinjectStoryboard', '1.1.1'
+  pod 'Magnetic',           '1.0.6'
 
   target 'Chat on MapTests' do
     inherit! :search_paths
